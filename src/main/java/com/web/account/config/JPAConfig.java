@@ -1,6 +1,4 @@
-package com.web.account.config;
-//package com.demo.config;
-//
+//package com.web.account.config;
 //import javax.persistence.EntityManagerFactory;
 //import javax.sql.DataSource;
 //
@@ -20,9 +18,9 @@ package com.web.account.config;
 //@Configuration
 //@EnableTransactionManagement
 //@EnableJpaRepositories(entityManagerFactoryRef = "entityManagerFactory",basePackages= {"com.demo"})
-//@EntityScan(basePackages = {"com.demo.entity"})
+//@EntityScan(basePackages = {"com.web.account.entity"})
 //public class JPAConfig {
-//
+//	
 //	@Bean(name = "dataSource")
 //	@ConfigurationProperties(prefix = "spring.datasource")
 //	public DataSource setDataSource()
@@ -33,7 +31,7 @@ package com.web.account.config;
 //	public LocalContainerEntityManagerFactoryBean entityManagerFactoryBean(EntityManagerFactoryBuilder builder,
 //		DataSource dataSource	)
 //	{
-//		return builder.dataSource(dataSource).packages("com.demo.*").build();
+//		return builder.dataSource(dataSource).packages("com.demo.account.*").build();
 //	}
 //  
 //	public PlatformTransactionManager transactionManager(@Qualifier("entityManagerFactory") EntityManagerFactory entityManagerFactory )
